@@ -12,10 +12,10 @@
 		9FD63F871B333B81001BD09A /* SYNQueueTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD63F861B333B81001BD09A /* SYNQueueTask.swift */; };
 		9FD63FBF1B334316001BD09A /* NSDate+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD63FBE1B334316001BD09A /* NSDate+Utils.swift */; };
 		9FD63FC11B335579001BD09A /* SYNQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD63FC01B335579001BD09A /* SYNQueue.swift */; };
-		DCD110DA1BBA166B003AF0F0 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD110D81BBA166B003AF0F0 /* ConsoleLogger.swift */; settings = {ASSET_TAGS = (); }; };
-		DCD110DB1BBA166B003AF0F0 /* NSUserDefaultsSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD110D91BBA166B003AF0F0 /* NSUserDefaultsSerializer.swift */; settings = {ASSET_TAGS = (); }; };
+		DCD110DA1BBA166B003AF0F0 /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD110D81BBA166B003AF0F0 /* ConsoleLogger.swift */; };
+		DCD110DB1BBA166B003AF0F0 /* NSUserDefaultsSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD110D91BBA166B003AF0F0 /* NSUserDefaultsSerializer.swift */; };
 		DCD110E01BBA2F1E003AF0F0 /* SYNQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F62022B1B333AAF0026CE2C /* SYNQueue.framework */; };
-		DCD110E21BBA2FB0003AF0F0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD110E11BBA2FB0003AF0F0 /* Utils.swift */; settings = {ASSET_TAGS = (); }; };
+		DCD110E21BBA2FB0003AF0F0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD110E11BBA2FB0003AF0F0 /* Utils.swift */; };
 		DCD110E31BBA2FBC003AF0F0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD110E11BBA2FB0003AF0F0 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
@@ -365,6 +365,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -384,6 +385,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
