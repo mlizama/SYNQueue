@@ -18,8 +18,8 @@
 		9FD63FC51B338BA5001BD09A /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD63FC41B338BA5001BD09A /* TaskCell.swift */; };
 		9FD63FC71B33EA2F001BD09A /* NSUserDefaultsSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD63FC61B33EA2F001BD09A /* NSUserDefaultsSerializer.swift */; };
 		9FD63FCD1B3417DF001BD09A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD63FCC1B3417DF001BD09A /* Utils.swift */; };
-		DC67E47E1BB0F01200F3D9E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC67E47D1BB0F01200F3D9E2 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		DC67E4801BB0F1BD00F3D9E2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67E47F1BB0F1BD00F3D9E2 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DC67E47E1BB0F01200F3D9E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC67E47D1BB0F01200F3D9E2 /* Main.storyboard */; };
+		DC67E4801BB0F1BD00F3D9E2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC67E47F1BB0F1BD00F3D9E2 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -384,6 +384,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -398,6 +399,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
