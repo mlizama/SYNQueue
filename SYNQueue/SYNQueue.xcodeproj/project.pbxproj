@@ -187,6 +187,7 @@
 					};
 					9F6202351B333AAF0026CE2C = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 27P7R227R5;
 					};
 				};
 			};
@@ -392,6 +393,7 @@
 		9F6202451B333AAF0026CE2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 27P7R227R5;
 				ENABLE_TESTABILITY = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -400,16 +402,19 @@
 				INFOPLIST_FILE = SYNQueueTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		9F6202461B333AAF0026CE2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 27P7R227R5;
 				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = SYNQueueTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
